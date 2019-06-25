@@ -16,7 +16,6 @@ const Person = ( props ) => {
     // }
 
     return(
-
         <div className= {classesStyle.Person} /*style={style}*/>
             <p onClick={props.click} >I'm {props.name} and I'm {props.age} years old</p>
             <p>{props.children}</p>
